@@ -109,7 +109,9 @@
     self.contentView.frame = frame;
     self.contentView.contentSize = self.contentView.frame.size;
     self.contentView.scrollEnabled = !!self.contentView.parallaxHeader.view;
-    self.contentView.contentInset = UIEdgeInsetsMake(self.contentView.parallaxHeader.height, 0, 0, 0);
+    if (!self.contentView.refreshControl.isRefreshing) {
+        self.contentView.contentInset = UIEdgeInsetsMake(self.contentView.parallaxHeader.height, 0, 0, 0);
+    }
 }
 
 - (void)layoutSegmentedControl {
@@ -250,6 +252,10 @@
     if ([self.delegate respondsToSelector:@selector(segmentedPager:didEndDisplayingPage:atIndex:)]) {
         [self.delegate segmentedPager:self didEndDisplayingPage:page atIndex:index];
     }
+}
+
+- (void)pagerView:(MXPagerView *)pagerView didMoveToPage:(nonnull UIView *)page atIndex:(NSInteger)index {
+    [self changedToIndex:index];
 }
 
 #pragma mark <MXPagerViewDataSource>
