@@ -34,7 +34,7 @@ class MXViewController: MXSegmentedPagerController {
         // Parallax Header       
         segmentedPager.parallaxHeader.view = headerView
         segmentedPager.parallaxHeader.mode = .fill
-        segmentedPager.parallaxHeader.height = 150
+        segmentedPager.parallaxHeader.height = 350
         segmentedPager.parallaxHeader.minimumHeight = view.safeAreaInsets.top
         
         // Segmented Control customization
