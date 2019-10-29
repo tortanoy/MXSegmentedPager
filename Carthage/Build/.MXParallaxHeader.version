@@ -1,9 +1,9 @@
 {
-  "commitish" : "03b310311af86c8db0a5844045191cc99244a354",
+  "commitish" : "888d46402e929a7d53b2e81cebc63672618da018",
   "iOS" : [
     {
       "name" : "MXParallaxHeader",
-      "hash" : "c8d29383a4102aabfd70099b2f789dc141387106b9b401fd43835a3ff6c0e4c0"
+      "hash" : "f588d9c699659c948854692766c26f6e62edc46b1fbb4fe50b4f3d8936dc400b"
     }
   ]
 }

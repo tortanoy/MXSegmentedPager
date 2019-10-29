@@ -1,10 +1,10 @@
 {
-  "commitish" : "1.1.0",
+  "commitish" : "5e2fdebca8ac44afc63d575bdf3c2c0b5526330e",
   "iOS" : [
     {
       "name" : "MXSegmentedControl",
-      "hash" : "9ff93640964e51f635aabfedabdd39c8a72de182317deb2e1be46b15a1d1ef53",
-      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+      "hash" : "4fe17b7b1379c7cd0f730c3632aa7b5e29a301873dd00eea7f5e12875a4cbba1",
+      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
     }
   ]
 }

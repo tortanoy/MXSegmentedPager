@@ -1,3 +1,3 @@
 github "maxep/MXPagerView" ~> 0.2
-github "maxep/MXSegmentedControl" ~> 1.1
+github "https://github.com/tortanoy/MXSegmentedControl" "master"
 github "tortanoy/MXParallaxHeader" "master"
